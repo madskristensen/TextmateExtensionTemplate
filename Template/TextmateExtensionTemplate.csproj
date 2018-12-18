@@ -67,7 +67,7 @@
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Grammars.pkgdef" />
+    <Content Include="Grammars.pkgdef.txt" />
     <Content Include="vspkg.source.extension.vsixmanifest" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

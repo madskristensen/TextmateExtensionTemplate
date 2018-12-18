@@ -18,7 +18,7 @@
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="source.extension.vsixmanifest">vspkg.source.extension.vsixmanifest</ProjectItem>
-      <ProjectItem ReplaceParameters="true">Grammars.pkgdef</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Grammars.pkgdef">Grammars.pkgdef.txt</ProjectItem>
       <Folder Name="Grammars">
         <ProjectItem ReplaceParameters="false" TargetFileName="Language.plist" OpenInEditor="true">Language.plist</ProjectItem>
       </Folder>
