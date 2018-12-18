@@ -1,6 +1,6 @@
 # Textmate Grammar Template
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6e12lklt8i6uug41?svg=true)](https://ci.appveyor.com/project/madskristensen/vsctintellisense)
+[![Build status](https://ci.appveyor.com/api/projects/status/336l6rvrnkceg59o?svg=true)](https://ci.appveyor.com/project/madskristensen/textmateextensiontemplate)
 
 Download the extension from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TextmateTemplate) or get the latest [CI build](http://vsixgallery.com/extension/2913ed5b-5767-43f5-be7c-ff5c68754bc3/)
 
