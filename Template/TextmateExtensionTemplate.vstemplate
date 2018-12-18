@@ -6,12 +6,14 @@
     <Icon>TextmateExtensionTemplate.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>Extensibility</ProjectSubType>
+    <CreateInPlace>true</CreateInPlace>
+    <ShowByDefault>true</ShowByDefault>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>f4be4c7e-f481-45bf-9a93-74d1f5a53c7f</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>LanguageExtension</DefaultName>
-    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">

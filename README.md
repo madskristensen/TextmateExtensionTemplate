@@ -20,6 +20,8 @@ Replace the Grammar/Language.plist file with any XML or JSON based grammar file 
 
 Now build the project and a .vsix files is generated in the /bin directory. This is the extension containing the Textmate grammar.
 
+## Resources
+Read more about Textmate Grammar support in the [VSSDK-Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar) repo.
 
 ## License
 [Apache 2.0](LICENSE)

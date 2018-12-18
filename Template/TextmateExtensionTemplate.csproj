@@ -62,7 +62,9 @@
     <None Include="TextmateExtensionTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="TextmateExtensionTemplate.vstemplate" />
+    <VSTemplate Include="TextmateExtensionTemplate.vstemplate">
+      <OutputSubPath>Extensibility</OutputSubPath>
+    </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Grammars.pkgdef" />
