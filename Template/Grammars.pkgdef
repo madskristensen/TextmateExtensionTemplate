@@ -1,0 +1,8 @@
+﻿[$RootKey$\TextMate\Repositories]
+"$safeprojectname$"="$PackageFolder$\Grammars"
+
+; Match file extensions with icons. See full icon list at https://glyphlist.azurewebsites.net
+[$RootKey$\ShellFileAssociations\.pkgdef]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationEditor"
+[$RootKey$\ShellFileAssociations\.pkgundef]
+"DefaultIconMoniker"="KnownMonikers.ConfigurationEditor"

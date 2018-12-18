@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Textmate Grammar Extension</Name>
+    <Description>A template for shipping Textmate Grammar files as a Visual Studio extension.</Description>
+    <Icon>TextmateExtensionTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Extensibility</ProjectSubType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>f4be4c7e-f481-45bf-9a93-74d1f5a53c7f</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>LanguageExtension</DefaultName>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="source.extension.vsixmanifest">vspkg.source.extension.vsixmanifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true">Grammars.pkgdef</ProjectItem>
+      <Folder Name="Grammars">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Language.plist" OpenInEditor="true">Language.plist</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
