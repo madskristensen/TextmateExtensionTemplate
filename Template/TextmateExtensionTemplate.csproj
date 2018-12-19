@@ -11,7 +11,6 @@
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{CB0A70FB-C737-408A-B37C-389AD852D946}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TextmateExtensionTemplate</RootNamespace>
     <AssemblyName>TextmateExtensionTemplate</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -54,20 +53,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Grammars\Language.plist" />
     <None Include="ProjectTemplate.csproj" />
-    <None Include="TextmateExtensionTemplate.ico" />
+    <None Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="TextmateExtensionTemplate.vstemplate">
       <OutputSubPath>Extensibility</OutputSubPath>
+      <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Grammars.pkgdef.txt" />
+    <Content Include="Preview.png" />
     <Content Include="vspkg.source.extension.vsixmanifest" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
