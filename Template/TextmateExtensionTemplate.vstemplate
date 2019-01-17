@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Textmate Grammar Extension</Name>
-    <Description>A template for shipping Textmate Grammar files as a Visual Studio extension.</Description>
+    <Description>A template for shipping Textmate Grammar files as a Visual Studio extension (VSIX).</Description>
     <Icon>Icon.ico</Icon>
     <PreviewImage>Preview.png</PreviewImage>
     <ProjectType>CSharp</ProjectType>
