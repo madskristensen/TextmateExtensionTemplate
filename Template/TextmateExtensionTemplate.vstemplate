@@ -13,13 +13,13 @@
     <ShowByDefault>true</ShowByDefault>
     <DefaultName>MyLanguage</DefaultName>
 
+    <!-- Tags for the VS2019 New Project Dialog -->
     <ProjectTypeTag>extension</ProjectTypeTag>
     <LanguageTag>csharp</LanguageTag>
     <LanguageTag>visualbasic</LanguageTag>
     <PlatformTag>windows</PlatformTag>
 
     <TemplateID>f4be4c7e-f481-45bf-9a93-74d1f5a53c7f</TemplateID>
-    <!--<RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>-->
     <SortOrder>2000</SortOrder>
     <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
   </TemplateData>
