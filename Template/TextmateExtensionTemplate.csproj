@@ -66,6 +66,10 @@
   <ItemGroup>
     <Content Include="Grammars.pkgdef.txt" />
     <Content Include="Preview.png" />
+    <Content Include="Resources\Icon128x128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="vspkg.source.extension.vsixmanifest" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

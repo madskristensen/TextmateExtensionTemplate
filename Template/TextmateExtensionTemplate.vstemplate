@@ -30,6 +30,9 @@
       <Folder Name="Grammars">
         <ProjectItem ReplaceParameters="false" TargetFileName="Language.plist" OpenInEditor="true">Language.plist</ProjectItem>
       </Folder>
+      <Folder Name="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Icon128x128.png">Icon128x128.png</ProjectItem>
+      </Folder>
     </Project>
   </TemplateContent>
 </VSTemplate>
