@@ -53,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Grammars\Language.plist" />
+    <None Include="Syntaxes\Language.plist" />
     <None Include="ProjectTemplate.csproj" />
     <None Include="Icon.ico" />
   </ItemGroup>
