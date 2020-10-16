@@ -1,4 +1,11 @@
-﻿[$RootKey$\TextMate\Repositories]
+﻿; Registering the package
+[$RootKey$\InstalledProducts\$safeprojectname$Package]
+"Package"="{$guid1$}"
+[$RootKey$\BindingPaths\{$guid1$}]
+"$PackageFolder$"=""
+
+; Registering the TextMate grammar
+[$RootKey$\TextMate\Repositories]
 "$safeprojectname$"="$PackageFolder$\Syntaxes"
 
 ; Match file extensions with icons. See full icon list at https://glyphlist.azurewebsites.net/knownmonikers/
